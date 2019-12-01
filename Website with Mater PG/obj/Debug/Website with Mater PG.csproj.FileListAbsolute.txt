@@ -1,0 +1,5 @@
+C:\Users\Amey\Documents\Aumkar\Website with Mater PG\Website with Mater PG\bin\Website with Mater PG.dll
+C:\Users\Amey\Documents\Aumkar\Website with Mater PG\Website with Mater PG\bin\Website with Mater PG.pdb
+C:\Users\Amey\Documents\Aumkar\Website with Mater PG\Website with Mater PG\obj\Debug\Website with Mater PG.csprojResolveAssemblyReference.cache
+C:\Users\Amey\Documents\Aumkar\Website with Mater PG\Website with Mater PG\obj\Debug\Website with Mater PG.dll
+C:\Users\Amey\Documents\Aumkar\Website with Mater PG\Website with Mater PG\obj\Debug\Website with Mater PG.pdb

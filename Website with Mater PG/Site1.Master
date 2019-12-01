@@ -1,0 +1,60 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="Website_with_Mater_PG.Site1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+  <%--  <asp:ContentPlaceHolder ID="head" runat="server">
+        fg
+    </asp:ContentPlaceHolder>--%>
+    <style type="text/css">
+        .auto-style1 {
+            height: 29px;
+        }
+    </style>
+    <script lang="javascript" type="text/javascript" src="slider.js"></script>
+</head>
+<body onload="myslider()" style="background-color: lightgreen;">
+   <form id="form1" runat="server">  
+            <div>  
+                <table border="1">  
+                    <tr>  
+                        <td colspan="2" style="text-align: center; height: 111px;" class="auto-style1">  
+                            <div   >
+                                 <asp:Image ID="Image1" runat="server" ImageUrl="~/Images/aspire-logo.jpg" Height="156px" Width="231px" />
+                                <h1><marquee style="color: blue;" > ASPIRE INTERNATIONAL SCHOOL</marquee></h1>
+                            </div>
+                        </td>  
+                    </tr>  
+                    <tr>  
+                        <td style="text-align: center; height: 480px; width: 250px">  
+                            <h1 style="color: blue;">Menu</h1>
+                            <asp:LinkButton ID="Home" runat="server" style="color: black;" OnClick="Home_Click">Home</asp:LinkButton><br />
+                 <asp:LinkButton ID="About" runat="server" style="color: black;" OnClick="About_Click">About</asp:LinkButton><br />
+               <asp:LinkButton ID="Contact" runat="server" style="color: black;" OnClick="Contact_Click">Contact</asp:LinkButton><br />
+                 <asp:LinkButton ID="Location" runat="server" style="color: black;"  OnClick="Location_Click">Location</asp:LinkButton>               
+                        </td>  
+                        <td style="text-align: center; height: 480px; width: 700px">  
+                            <asp:ContentPlaceHolder ID="MainContentPlaceHolder1" runat="server">  
+                                <h1>you can change Content here</h1>  
+                            </asp:ContentPlaceHolder>  
+                        </td>  
+                    </tr>  
+                    <tr>  
+
+                        <td colspan="2" style="text-align: center">  
+                            <h4 style="color: blue;">Address</h4>
+                            <div>
+                               Chatrapati Shivaji Maharaj Terminus Rd, Kolivery Village, Vidya Nagari, Kalina, Santacruz East, Mumbai, Maharashtra 400098
+                            </div>  
+                            <h4 style="color: blue;">Contact</h4>
+                            <a href="tel:9191300555112233">+91 9130055511/22/33</a><br />
+                            <a href="mailto:info@aspireschools.in">info@aspireschools.in</a>
+                        </td>  
+                    </tr>  
+                </table>  
+            </div>  
+        </form> 
+</body>
+</html>
